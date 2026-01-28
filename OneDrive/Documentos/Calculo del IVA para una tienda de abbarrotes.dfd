@@ -1,0 +1,176 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+9
+continuar
+3
+'S'
+5
+Monto
+1
+0
+3
+IVA
+1
+0
+6
+2
+8
+TotalIVA
+1
+0
+7
+MontoT2
+1
+0
+6
+3
+4
+IVAT
+1
+0
+6
+MontoT
+1
+0
+4
+ISRT
+1
+0
+6
+3
+5
+valor
+1
+0
+6
+Monto2
+1
+0
+3
+ISR
+1
+0
+9
+1
+17
+continuar = ('S')
+4
+1
+32
+"Ingrese el valor de la factura"
+5
+1
+5
+valor
+7
+0
+1
+8
+valor >0
+13
+6
+2
+3
+IVA
+13
+valor *12/100
+5
+Monto
+11
+valor - IVA
+6
+2
+4
+IVAT
+10
+IVAT + IVA
+8
+TotalIVA
+11
+valor - IVA
+4
+1
+15
+"El IVA es de:"
+4
+1
+3
+IVA
+4
+1
+30
+"El Monto menos el IVA es de:"
+4
+1
+8
+TotalIVA
+4
+1
+29
+"Total de IVA del los Montos"
+4
+1
+4
+IVAT
+7
+0
+1
+11
+Monto > 400
+13
+6
+3
+3
+ISR
+12
+Monto* 5/100
+6
+Monto2
+11
+Monto - ISR
+4
+ISRT
+10
+ISRT + ISR
+4
+1
+15
+"El ISR es de:"
+4
+1
+3
+ISR
+4
+1
+24
+"El total de ISR es de:"
+4
+1
+4
+ISRT
+4
+1
+30
+"El monto menos el ISR es de:"
+4
+1
+6
+Monto2
+13
+13
+4
+1
+28
+"Para continuar escriba 'S'"
+5
+1
+9
+continuar
+11
+1

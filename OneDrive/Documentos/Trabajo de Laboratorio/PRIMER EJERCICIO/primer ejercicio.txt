@@ -1,0 +1,118 @@
+1. Organiza las carpetas por nombre y fecha:
+
+Organizar por nombre
+a) Dar clic derecho.
+b) Dar clic en la opcion ordenar por.
+c) Dar clic en nombre.
+
+Organizar por fecha
+a) Dar clic derecho.
+b) Dar clic en la opcion ordenar por.
+c) Dar clic en fecha de modificacion.
+
+2. Crear carpeta:
+
+a) Dar clic derecho.
+b) Clic en nuevo.
+c) Clic en la opcion carpeta.
+d) Nombrar la carpeta.
+
+3. Grabar en cada carpeta un ejercicio:
+
+a) Abrir la carpeta de Trabajo de Laboratorio 
+b) Creamos otra carpeta en la carpeta de Trabajo de Laboratorio.
+c) Guardamos en esta el primer ejercicio.
+d) Realizamos el mismo procedimiento con los demas ejercicios 
+
+4. Eliminar Carpeta:
+
+a) Seleccionamos la carpeta que deceamos eliminar.
+b) Damos clic derecho.
+c) Clic en la opcion eliminar.
+
+5. Que es un icono:
+
+Es un simbolo grafico que aparece en la pantalla de un computador o de otros dispositivos electronicos y que presentan un programa, un sistema operativo, etc.
+
+6. Ingrese a la carpeta de accesibilidad de windows y escriba el nombre de los iconos que aparecen y escriba su funcion:
+
+-Lupa:Amplía la pantalla o partes de ella para facilitar la visualización de texto e imágenes.
+-Narrador: es un lector de pantalla integrado que lee en voz alta lo que aparece en la pantalla, facilitando la navegación y el uso de aplicaciones a personas con discapacidad visual o dificultades para leer.
+-Reconocimiento de voz de Windows: permite controlar el equipo y dictar texto con comandos de voz.
+-Teclado en pantalla: permite escribir y navegar por el sistema sin un teclado físico, útil para usuarios con dificultades motoras o cuando el teclado físico falla. 
+
+7. Ingrese a accesorios de windows y escriba el nombre de cada icono que aparece y su funcion:
+
+-Asistencia rapida: Permite conectarse remotamente con otra PC para proporcionar soporte técnico, visualizando la pantalla o tomando el control. 
+-Bloc de notas:  Util paracrear y editar archivos de texto sin formato.
+-Conexion a escritorio remoto: Esta herramienta permite a los usuarios acceder y controlar un ordenador de forma remota, como si estuvieran aparentemente frente a él. 
+-Fax y escaner de windows: Permite enviar y recibir faxes directamente desde tu ordenador, así como escanear documentos. 
+-Grabacion de acciones de usuario: Permite registrar las acciones realizadas en el ordenador, capturando la pantalla y las interacciones del usuario.
+-Herramienta Recortes: Sirve para capturar imágenes o vídeos de la pantalla.
+-Inicio de desarrollo: Es un centro de control para desarrolladores que facilita la supervisión de proyectos, la configuración de entornos de desarrollo y la conexión con herramientas y cuentas de desarrollo.
+-Intert Explore: son herramientas y programas que permiten al usuario realizar una completa integración de su PC dentro del mundo de la red, como barras de herramientas, complementos y funciones de accesibilidad. 
+-Mapa de caracteres: permite visualizar y copiar caracteres especiales que pueden no estar disponibles en el teclado estándar, así como también identificar códigos Unicode para caracteres específicos. 
+-Math Imput Panel: permite ingresar expresiones y fórmulas matemáticas de forma fácil e intuitiva
+-Pain: es un programa de edición de imágenes incluido en los accesorios de Windows, que permite crear, editar y modificar imágenes
+-Windows Media Player: no tienen una función directa dentro de Windows Media Player, aunque ambos pueden interactuar. 
+-Word Pad: Permite crear y editar documentos de texto sencillos, como cartas, notas o informes.
+
+8. Ingrese a la carpeta herramientas administrativas y escribir el nombre de cada icono y su funcion:
+
+-Administracion de equipos: permiten a los administradores y usuarios avanzados gestionar diversos aspectos del sistema, como la configuración del hardware, la gestión de usuarios, la administración de servicios, la visualización de eventos, y más
+-Administracion de impresion: permite gestionar la impresión, incluyendo la instalación y configuración de impresoras, la gestión de colas de impresión y la configuración de las opciones de impresión.
+-Configuracion del sistema: permitir a los usuarios realizar ajustes y modificaciones en el proceso de inicio del sistema operativo
+-Desfragmentar y optimizar unidades: para optimizar el rendimiento de los discos duros (HDD) y, en menor medida, las unidades de estado sólido (SSD). Desfragmenta los discos duros, reubicando los archivos para que estén más juntos y facilitar su acceso.
+-Diagnostico de memoria de windows: permite probar la memoria RAM (RAM) de tu computadora para detectar posibles problemas. Si su computadora funciona lentamente, se congela, se bloquea o muestra una pantalla azul, esta herramienta puede ser útil para diagnosticar el problema. 
+-Directiva de seguridad local: establecer medidas de seguridad a nivel del sistema local.
+-Editor del Registro: permite modificar las configuraciones del sistema y las aplicaciones, incluyendo las políticas del sistema, las aplicaciones instaladas y los tipos de archivos que ciertas aplicaciones pueden abrir. 
+-Informacion del sistema: Proporciona una vista completa del hardware, los componentes del sistema y el entorno de software de tu computadora.
+-Iniciador ISCSI:una funcionalidad que forma parte de los accesorios, permite a los servidores Windows acceder a dispositivos de almacenamiento a través de la red, usando el protocolo iSCSI. 
+-Liberador de espacio en disco: s una herramienta que ayuda a liberar espacio en el disco duro eliminando archivos innecesarios.
+-Monitor de recursos: permite supervisar el rendimiento y el uso de recursos del ordenador, incluyendo la CPU, memoria, disco y red. 
+-Monitor de rendimiento: no es un accesorio, sino una herramienta integrada de sistema que permite monitorear el rendimiento en tiempo real del equipo.
+-ODBC data sources (32-bit): se encargan de la gestión de fuentes de datos ODBC (32-bit) son el Administrador de Orígenes de Datos ODBC y los archivos Odbcad32.exe.
+-Origenes de datos ODBC (64-bits): herramientas administrativas que permiten a las aplicaciones acceder a bases de datos utilizando el estándar ODBC.
+-Programador de tareas: es una herramienta de sistema que permite automatizar la ejecución de programas, scripts y otras tareas en momentos específicos o en respuesta a eventos.
+-Servicios:  son programas que se ejecutan en un segundo plano para proporcionar funcionalidades del sistema sin la necesidad de una interfaz de usuario. 
+-Servicios de Compnentes: son una herramienta para administrar y configurar componentes COM+ y DCOM, que son tecnologías utilizadas para la creación de aplicaciones distribuidas.
+-Unidad de recuperacion: sirve para crear una copia de seguridad de los archivos del sistema necesarios para restaurar el equipo a su estado original.
+-Visor de eventos: sirve como herramienta para registrar y visualizar eventos importantes que ocurren en el sistema operativo y en las aplicaciones.
+-Windows DefenderFirewal: Funciona como un sistema de seguridad que monitoriza y controla el tráfico de red entrante y saliente para proteger tu dispositivo de accesos no autorizados y amenazas en línea.
+
+9. Ingresar a la carpeta de herramientas de microsoft office y escribir el nombre de cada icono y su funcion:
+
+-Administrador de grabaciones de Skipe Empresarial: Puedes reproducir, examinar, renombrar, eliminar y publicar grabaciones de reuniones.
+-Centro de carga de carga de office 2016: sirve para gestionar los archivos que se están cargando a la nube o que están en el caché local de documentos.
+-Database compare 2016: es una herramienta que permite comparar dos bases de datos de Microsoft Access, lo que permite a los usuarios identificar diferencias entre ellas. 
+-Panel de telemetria para office 2016: recopila datos de inventario, uso y estado de las aplicaciones de Office, incluyendo complementos, en una organización. 
+-Preferencia de idioma de office 2016:permite configurar el idioma de la interfaz de usuario, la ayuda y las herramientas de corrección de Office.
+-Registro de telemetria para office 2016:Recopila datos sobre el inventario, uso y estado de los documentos y soluciones de Office, como complementos, que se utilizan en una organización.
+-Spread sheet compare 2016: esuna herramienta que le permite comparar dos libros de trabajo e identificar diferencias entre ellos, incluidos valores, fórmulas y formato
+
+10. Ingresar a la carpeta de sistemas de windows, escribir el nombre de cada icono y su funcion:
+
+-Administrador de tareas: Su función principal es permitir a los usuarios supervisar el rendimiento del sistema, gestionar procesos en ejecución, ver el consumo de recursos (CPU, RAM, disco, etc.) y finalizar aplicaciones que no responden.
+-Ejecutar:Es una herramienta que permite a los usuarios ejecutar comandos de forma rápida, incluyendo la apertura de aplicaciones, carpetas y la ejecución de procesos internos de Windows. 
+-Este equipo: es el acceso directo al Explorador de archivos, que te permite ver y gestionar las unidades de disco, dispositivos conectados, carpetas de usuario y recursos de red.
+-Explorador de archivos: es la herramienta principal para navegar, organizar y gestionar los archivos y carpetas en tu ordenador
+-Herramientas administrativas de windows:Contiene herramientas para administradores de sistema y usuarios avanzados, disponibles en el Panel de control de Windows.
+-Panel de control:es una herramienta fundamental para configurar y gestionar diversas opciones del sistema operativo. 
+-Simbolo del sistema: es una herramienta de línea de comandos que permite a los usuarios interactuar con el sistema operativo a través de comandos de texto.
+
+11. Ingrsar a la carpeta de windows powershell y escribir los nombres de cada icono y su funcion 
+
+-Windows PowerShell:es un shell de comandos moderno que incluye las mejores características de otros shells populares. A diferencia de la mayoría de los shells que solo aceptan y devuelven texto, PowerShell acepta y devuelve objetos .
+-Windows PowerShell (x86): Su función principal espermitir a los administradores de sistemas ya los usuarios avanzados automatizar tareas y gestionar el sistema operativo.
+-Windows PowerShell ISE: sirve como entorno para desarrollar, probar y depurar scripts de PowerShell.
+-Windows PowerShell ISE (x86):es una herramienta de scripting que permite a los usuarios escribir, ejecutar y depurar scripts de PowerShell en una interfaz gráfica de usuario (GUI) basada en Windows. 
+
+12. De clic al icono de windows y en la parte izquierda inferior aparece varios iconos escriba la funcion que tiene cada uno de ellos
+-Documentos: un lugar centralizado y predeterminado para guardar archivos y carpetas importantes. 
+-Imagene: es una aplicación integrada para sistemas operativos Windows que permite a los usuarios ver, organizar, editar y compartir sus fotos y vídeos .
+-Configuracion: permitir a los usuarios personalizar y ajustar las opciones del sistema operativo para adaptarse a sus necesidades y preferencias.
+-Inicio/apagado: permite al usuario apagar, reiniciar o suspender el ordenador, así como configurar la pantalla y la suspensión.
+
+
+
+

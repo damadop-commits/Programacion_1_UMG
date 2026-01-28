@@ -1,0 +1,98 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+facturas
+1
+0
+4
+tiva
+1
+0
+7
+totaiva
+1
+0
+6
+3
+3
+isr
+1
+0
+7
+totaisr
+1
+0
+10
+Totalfinal
+1
+0
+9
+1
+19
+facturas = facturas
+4
+1
+22
+"Ingresar una factura"
+5
+1
+8
+facturas
+7
+0
+1
+19
+facturas = facturas
+13
+7
+0
+1
+12
+facturas > 0
+13
+6
+1
+4
+tiva
+15
+facturas*12/100
+7
+0
+1
+8
+tiva > 1
+13
+6
+1
+7
+totaiva
+14
+totaiva + tiva
+7
+0
+1
+11
+totaiva > 0
+13
+6
+1
+7
+totaiva
+9
++ totaiva
+4
+1
+7
+totaiva
+13
+13
+13
+13
+11
+1

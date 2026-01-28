@@ -1,0 +1,89 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+HE
+1
+0
+2
+HS
+1
+0
+4
+Pago
+1
+0
+6
+2
+2
+HR
+1
+0
+11
+HoraEstadia
+1
+0
+5
+1
+6
+HE, HS
+6
+2
+11
+HoraEstadia
+7
+HS - HE
+8
+Fraccion
+7
+HS / HE
+7
+0
+1
+16
+HoraEstadia <= 1
+7
+0
+1
+13
+Fraccion >= 1
+6
+2
+2
+HR
+15
+HoraEstadia - 1
+4
+Pago
+24
+Pago + 1000 + (HR * 600)
+13
+6
+1
+11
+HoraEstadia
+15
+HoraEstadia + 1
+13
+4
+1
+4
+Pago
+13
+6
+1
+4
+Pago
+4
+1000
+4
+1
+4
+Pago
+13
+1
