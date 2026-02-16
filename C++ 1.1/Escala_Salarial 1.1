@@ -1,0 +1,66 @@
+Algoritmo Escala_Salarial
+	// DEfinicion de Variables
+	Definir edad Como Entero
+	Definir sueldoAnual, aporteFinal, aporte Como Real //Actualizacion de Variables 
+	// Ingreso de Datos
+	Escribir 'Ingrese su edad'
+	Leer edad
+	aporte <- 0
+	// Proceso para obtener un resultado
+	Si edad>30 Y edad<122 Entonces
+		Escribir 'Ingrese sueldo anual'
+		Leer sueldoAnual
+		Si sueldoAnual>0 Y sueldoAnual<10000 Entonces
+			aporteFinal <- (sueldoAnual*(0.5/100))
+			Escribir 'Su aporte seria: $ ', aportefinal, ' dolares'
+		SiNo
+			Si sueldoAnual>=10000 Y sueldoAnual<=19999 Entonces
+				aporteFinal <- (sueldoAnual*(1/100))
+				Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+			SiNo
+				Si sueldoAnual>=20000 Y sueldoAnual<=29999 Entonces
+					aporteFinal <- (sueldoAnual*(2/100))
+					Escribir 'Su aporte seria: $ ', aporte_final, ' dolares'
+				SiNo
+					Si sueldo_anual>=30000 Entonces
+						aporteFinal <- (sueldoAnual*(2.5/100))
+						Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+					FinSi
+					Escribir 'ERROR, valor incorrecto'
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		Si edad>0 Y edad<=30 Entonces
+			Escribir 'Ingrese sueldo anual'
+			Leer sueldoAnual
+			Si sueldoAnual>0 Y sueldoAnual<10000 Entonces
+				aporte <- (sueldoAnual*(0.5/100))
+				aporteFinal <- aporte+(aporte*20/100)
+				Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+			SiNo
+				Si sueldoAnual>=10000 Y sueldoAnual<=19999 Entonces
+					aporte <- (sueldoAnual*(1/100))
+					aporteFinal <- aporte+(aporte*20/100)
+					Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+				SiNo
+					Si sueldoAnual>=20000 Y sueldoAnual<=29999 Entonces
+						aporte <- (sueldoAnual*(2/100))
+						aporte_final <- aporte+(aporte*20/100)
+						Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+					SiNo
+						Si sueldo_anual>30000 Entonces
+							aporte <- (sueldoAnual*(2.5/100))
+							aporteFinal <- aporte+(aporte*20/100)
+							Escribir 'Su aporte seria: $ ', aporteFinal, ' dolares'
+						SiNo
+							Escribir 'ERROR, valor incorrecto'
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		SiNo
+			Escribir 'ERROR, valor incorrecto'
+		FinSi
+	FinSi
+FinAlgoritmo

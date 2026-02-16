@@ -1,0 +1,29 @@
+Algoritmo Pago_de_Monto_Menos_Billetes
+	// Definicion de Variables
+	Definir nuevoMonto, nuevosBilletes Como Entero //Actualizacion de Variables
+	// Solicitar datos al Usuario
+	Escribir 'Ingrese monto a Descomponer en la menor cantidad de billetes'
+	Leer nuevoMonto
+	// Proceso para resolver problema y respuestas
+	nuevosBilletes <- TRUNC(nuevoMonto/100)
+	Escribir nuevosBilletes, ' billetes de US$ 100'
+	nuevoMonto <- (nuevoMonto-nuevosBilletes*100)
+	nuevosBilletes <- TRUNC(nuevoMonto/50)
+	Escribir nuevosBilletes, ' billetes de US$ 50'
+	nuevoMonto <- (nuevoMonto MOD 50)
+	nuevosBilletes <- TRUNC(nuevoMonto/20)
+	Escribir nuevosBilletes, ' billetes de US$ 20'
+	nuevoMonto <- (nuevoMonto MOD 20)
+	nuevosBilletes <- TRUNC(nuevoMonto/10)
+	Escribir nuevosBilletes, ' billetes de US$ 10'
+	nuevoMonto <- (nuevoMonto MOD 10)
+	nuevosBilletes <- TRUNC(nuevoMonto/5)
+	Escribir nuevosBilletes, ' billetes de US$ 5'
+	nuevoMonto <- (nuevoMonto MOD 5)
+	nuevosBilletes <- TRUNC(nuevoMonto/2)
+	Escribir nuevosBilletes, ' billetes de US$ 2'
+	nuevoMonto <- (nuevoMonto MOD 2)
+	nuevosBilletes <- TRUNC(nuevoMonto/1)
+	Escribir nuevosBilletes, ' billetes de US$ 1'
+	nuevoMonto <- (nuevoMonto MOD 1)
+FinAlgoritmo

@@ -1,0 +1,30 @@
+Algoritmo Que_Momento_del_Dia_es
+	// DEfinicion de Variables
+	Definir nuevasHoras Como Entero
+	// Solicitar Datos
+	Escribir 'Ingrese Horas para Saber a que Momnento del dia Pertenece'
+	Leer nuevasHoras
+	//Proceso y operadores, con respuestas solicitadas
+	Si nuevasHoras>=0 Y nuevasHoras<=5 Entonces
+		Escribir 'Esta hora pertenece a la Madrugada'
+	SiNo
+		Si nuevasHoras>=6 Y nuevasHoras<=11 Entonces
+			Escribir 'Esta hora pertenece a la Mañana'
+		SiNo
+			Si nuevasHoras>=12 Y nuevasHoras<=13 Entonces
+				Escribir 'Esta hora pertenece a Mediodia'
+			SiNo
+				Si nuevasHoras>=14 Y nuevasHoras<=19 Entonces
+					Escribir 'Esta hora pertenece a la Tarde'
+				SiNo
+					Si nuevasHoras>=20 Y nuevasHoras<=23 Entonces
+						Escribir 'Esta hora pertenece a la Noche'
+					SiNo
+						Escribir '        |||| ERROR ||||'
+						Escribir 'Valor Fuera del rango (0 - 23)'
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
