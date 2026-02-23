@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1771783450 source:c:\users\dell\onedrive\documentos\acividades programacion 1\programas actividad 4 quinto capitulo\librocalificaciones\main.cpp
+	"LibroCalificaciones.h"
+	<iostream>
+
+1771785489 source:c:\users\dell\onedrive\documentos\acividades programacion 1\programas actividad 4 quinto capitulo\librocalificaciones\librocalificaciones.cpp
+	<iostream>
+	"LibroCalificaciones.h"
+
+1771785872 c:\users\dell\onedrive\documentos\acividades programacion 1\programas actividad 4 quinto capitulo\librocalificaciones\librocalificaciones.h
+	<string>
+
