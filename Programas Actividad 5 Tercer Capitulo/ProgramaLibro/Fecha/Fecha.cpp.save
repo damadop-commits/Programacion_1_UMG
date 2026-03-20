@@ -1,0 +1,61 @@
+#include <iostream>
+#include "Fecha.h"
+
+using namespace std;
+
+// Constructor
+Fecha::Fecha(int mes, int dia, int anio)
+{
+    if (mes >= 1 && mes <= 12)
+        Mes = mes;
+    else
+        Mes = 1;
+
+    Dia = dia;
+    Anio = anio;
+}
+
+// Establecer mes
+void Fecha::establecerMes(int mes)
+{
+    if (mes >= 1 && mes <= 12)
+        Mes = mes;
+    else
+        Mes = 1;
+}
+
+// Obtener mes
+int Fecha::obtenerMes() const
+{
+    return Mes;
+}
+
+// Establecer día
+void Fecha::establecerDia(int dia)
+{
+    Dia = dia;
+}
+
+// Obtener día
+int Fecha::obtenerDia() const
+{
+    return Dia;
+}
+
+// Establecer año
+void Fecha::establecerAnio(int anio)
+{
+    Anio = anio;
+}
+
+// Obtener año
+int Fecha::obtenerAnio() const
+{
+    return Anio;
+}
+
+// Mostrar fecha
+void Fecha::mostrarFecha() const
+{
+    cout << Mes << "/" << Dia << "/" << Anio << endl;
+}

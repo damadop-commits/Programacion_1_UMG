@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1773628943 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\factura\main.cpp
+	<iostream>
+	"Factura.h"
+
+1773625389 c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\factura\factura.h
+	<string>
+
+1773623238 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\factura\factura.cpp
+	<iostream>
+	"Factura.h"
+

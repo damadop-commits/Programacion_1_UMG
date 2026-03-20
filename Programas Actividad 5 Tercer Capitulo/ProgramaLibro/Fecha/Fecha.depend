@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1773632624 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\fecha\fecha.cpp
+	<iostream>
+	"Fecha.h.h"
+
+1773632608 c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\fecha\fecha.h.h
+
+1773632631 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\fecha\main.cpp
+	<iostream>
+	"Fecha.h.h"
+

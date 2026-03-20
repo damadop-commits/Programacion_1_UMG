@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1773605699 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\librocalificaciones.cpp
+	<iostream>
+	"LibroCalificaciones.h"
+
+1773605018 c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\librocalificaciones.h
+	<string>
+
+1773606047 source:c:\users\danie\documents\actividades programacion\programacion_1_umg\programas actividad 5 tercer capitulo\programalibro\main.cpp
+	<iostream>
+	"LibroCalificaciones.h"
+

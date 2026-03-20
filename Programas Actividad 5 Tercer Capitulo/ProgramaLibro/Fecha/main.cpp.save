@@ -1,0 +1,19 @@
+#include <iostream>
+#include "Fecha.h"
+
+using namespace std;
+
+int main()
+{     //Crear Objeto Factura
+    Fecha fecha1 ("Ferreteria Amado");
+
+    // Datos para Factura
+    factura1.establecerNumeroPieza("A123");
+
+
+    //Mostrar Factura
+    fecha1.mostrarMensaje();
+
+    return 0;
+
+    }
