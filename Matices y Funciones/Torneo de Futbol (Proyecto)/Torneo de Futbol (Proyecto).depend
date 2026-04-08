@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1775663950 source:c:\users\danie\onedrive\documentos\actividades programacion\programacion_1_umg\matices y funciones\torneo de futbol (proyecto)\main.cpp
+	<iostream>
+	<cstdlib>
+	<unistd.h>
+	"Futbol.h"
+
+1775665942 c:\users\danie\onedrive\documentos\actividades programacion\programacion_1_umg\matices y funciones\torneo de futbol (proyecto)\include\futbol.h
+	<string>
+
+1775665956 source:c:\users\danie\onedrive\documentos\actividades programacion\programacion_1_umg\matices y funciones\torneo de futbol (proyecto)\src\futbol.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	<cstdlib>
+	"Futbol.h"
+
