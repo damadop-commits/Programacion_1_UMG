@@ -1,0 +1,86 @@
+#ifndef TABLERO_H
+#define TABLERO_H
+
+#include <iostream>
+#include <vector>
+#include "Celda.h"
+
+using namespace std;
+
+// Clase Tablero
+// Representa el área de juego donde se encuentran todas las celdas.
+// Se encarga de administrar el estado del tablero, mostrarlo en pantalla
+// y controlar las acciones relacionadas con las minas.
+
+class Tablero
+{
+    public:
+        // Constructor por defecto
+        Tablero();
+
+        // Constructor que inicializa el tablero con tamaño y modo de juego
+        Tablero(int alturaTablero, int anchoTablero, bool modoDesarrollador);
+
+        // Devuelve la altura del tablero (filas)
+        int getAlturaTablero();
+
+        // Asigna la altura del tablero
+        int setAlturaTablero(int alturaTablero);
+
+        // Devuelve el ancho del tablero (columnas)
+        int getAnchoTablero();
+
+        // Asigna el ancho del tablero
+        int setAnchoTablero(int anchoTablero);
+
+        // Devuelve si el modo desarrollador está activo
+        bool getModoDesarrollador();
+
+        // Activa o desactiva el modo desarrollador
+        bool setModoDesarrollador(bool modoDesarrollador);
+
+        // Imprime la línea superior del tablero
+        void imprimirSeparadorEncabezado();
+
+        // Imprime las separaciones entre filas
+        void imprimirSeparadorFilas();
+
+        // Imprime el encabezado con los números de columnas
+        void imprimirEncabezado();
+
+        // Imprime todo el tablero en consola
+        void imprimir();
+
+        // Coloca una mina en la posición indicada (x, y)
+        bool colocarMina(int x, int y);
+
+        // Descubre una celda del tablero
+        bool descubrirMina(int x, int y);
+
+        // Cuenta cuántas celdas seguras quedan sin descubrir
+        int contarCeldasSinMinasYSinDescubrir();
+
+    protected:
+        // (No se utilizan atributos protegidos en esta clase)
+
+    private:
+        // Número de filas del tablero
+        int alturaTablero;
+
+        // Número de columnas del tablero
+        int anchoTablero;
+
+        // Indica si el modo desarrollador está activo
+        bool modoDesarrollador;
+
+        // Matriz que almacena todas las celdas del tablero
+        vector<vector<Celda> > contenidoTablero;
+
+        // Devuelve el símbolo que se debe mostrar en una celda (*, número o ?)
+        string getRepresentacionMina(int x, int y);
+
+        // Cuenta cuántas minas hay alrededor de una celda
+        int minasCercanas(int fila, int columna);
+};
+
+#endif // TABLERO_H

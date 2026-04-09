@@ -1,0 +1,52 @@
+#ifndef JUEGO_H
+#define JUEGO_H
+
+#include "Tablero.h"
+
+// Clase Juego
+// Se encarga de controlar toda la lógica del juego,
+// incluyendo la interacción con el usuario, la colocación de minas
+// y la verificación de victoria o derrota.
+
+class Juego
+{
+private:
+    // Objeto tablero donde se desarrolla el juego
+    Tablero tablero;
+
+    // Cantidad de minas que tendrá el juego
+    int cantidadMinas;
+
+    // Genera un número aleatorio dentro de un rango
+    int aleatorio_en_rango(int minimo, int maximo);
+
+    // Genera una fila aleatoria dentro del tablero
+    int filaAleatoria();
+
+    // Genera una columna aleatoria dentro del tablero
+    int columnaAleatoria();
+
+public:
+    // Constructor que recibe el tablero y la cantidad de minas
+    Juego(Tablero tablero, int cantidadMinas);
+
+    // Coloca las minas en posiciones aleatorias del tablero
+    void colocarMinasAleatoriamente();
+
+    // Solicita al usuario la fila donde desea jugar
+    int solicitarFilaUsuario();
+
+    // Solicita al usuario la columna donde desea jugar
+    int solicitarColumnaUsuario();
+
+    // Verifica si el jugador ha ganado el juego
+    bool jugadorGana();
+
+    // Inicia el ciclo principal del juego
+    void iniciar();
+
+    // Método para dibujar una portada del juego (no implementado en el .cpp)
+    void dibujarPortada(string nombreArchivo);
+};
+
+#endif // JUEGO_H

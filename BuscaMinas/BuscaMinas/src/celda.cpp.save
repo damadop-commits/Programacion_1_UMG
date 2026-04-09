@@ -1,0 +1,92 @@
+#include "Celda.h"
+#include <iostream>
+using namespace std;
+
+// Constructor por defecto de la clase Celda
+Celda::Celda()
+{
+    // No inicializa valores, se usaría después con setters o el otro constructor
+}
+
+// Constructor con parámetros para inicializar la celda
+Celda::Celda(int coordenadaX, int coordenadaY, bool estadoMina)
+{
+    // Se asignan las coordenadas de la celda
+    this->coordenadaX = coordenadaX;
+    this->coordenadaY = coordenadaY;
+
+    // Se define si la celda tiene mina o no
+    this->mina = estadoMina;
+
+    // Por defecto, la mina no está descubierta
+    this->minaDescubierta = false;
+}
+
+// Método para asignar la coordenada X
+int Celda::setCoordenadaX(int coordenadaX)
+{
+    this->coordenadaX = coordenadaX;
+
+}
+
+// Método para obtener la coordenada X
+int Celda::getCoordenadaX()
+{
+    return this->coordenadaX;
+}
+
+// Método para asignar la coordenada Y
+int Celda::setCoordenadaY(int coordenadaY)
+{
+    this->coordenadaY = coordenadaY;
+}
+
+// Método para obtener la coordenada Y
+int Celda::getCoordenadaY()
+{
+    return this->coordenadaY;
+}
+
+// Método para establecer si la celda tiene mina
+bool Celda::setMina(bool estadoMina)
+{
+    // Si ya tiene mina, no se puede volver a asignar
+    if (this->getMina())
+    {
+        return false; // No se modifica
+    }
+    else
+    {
+        this->mina = estadoMina;
+        return true; // Se asignó correctamente
+    }
+}
+
+// Método para obtener el estado de la mina (si hay o no)
+bool Celda::getMina()
+{
+    return this->mina;
+}
+
+// Método para indicar si la mina ya fue descubierta
+bool Celda::setMinaDescubierta(bool minaDescubierta)
+{
+    this->minaDescubierta = minaDescubierta;
+    // Nota: debería retornar un valor bool, pero no retorna nada
+}
+
+// Método para saber si la mina ya fue descubierta
+bool Celda::getMinaDescubierta()
+{
+    return this->minaDescubierta;
+}
+
+// Método para imprimir la información de la celda
+void Celda::imprimirCelda()
+{
+    cout << "Celda en " << this->coordenadaX
+         << ", " << this->coordenadaY
+         << " con mina? " << this->mina << "\n";
+}
+
+
